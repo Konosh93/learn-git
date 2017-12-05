@@ -7,6 +7,6 @@ var App = React.createClass({
 });
  
 ReactDOM.render(
-  React.createElement(App),
+  <App />,
   document.getElementById('root')
 );
