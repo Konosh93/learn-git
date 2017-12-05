@@ -2,9 +2,16 @@ var App = React.createClass({
   displayName: 'App',
   render: function() {
     // The second parameter is an object of attributes for the element (if any)
-    return React.createElement('div', { }, 'Something something Dark Side');
+    return <Poems />;
   }
 });
+
+var Poems = React.createClass({
+	displayName: 'Poems',
+	render: function () {
+		return <div> Poems </div>
+	}
+})
  
 ReactDOM.render(
   <App />,
