@@ -1,0 +1,12 @@
+#root {
+	width: 1100px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	margin-top: 60px;
+	background-color: #ddd;
+}
+.poems {
+	height: 200px;
+	line-height: 200px;
+	margin-right: 10px;
+}
